@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1286px;
+  margin: 0 auto;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.li-box {
+  width: 430px;
+}
+
+.li-box ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.li-box ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.icon-box {
+  width: 193px;
+  display: flex;
+  justify-content: space-between;
+}
